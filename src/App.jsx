@@ -1,10 +1,8 @@
+import Quiz from "./Quiz";
+import { quizData } from "./constants";
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return <Quiz questions={ quizData.questions} />;
 }
 
 export default App
